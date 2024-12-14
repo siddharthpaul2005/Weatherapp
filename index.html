@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+
+</stdio.h>
+<body>
+    
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <div class="search-section">
+            <input type="text" id="city-input" placeholder="Enter city name" class="input-field">
+            <button id="search-btn" class="neon-button">Search</button>
+            <button id="refresh-btn" class="neon-button">Refresh</button>
+            <button id="dark-mode-toggle" class="neon-button">Dark Mode</button>
+        </div>
+
+       
+        <div id="weather-info" class="weather-info"></div>
+        <div id="loading" class="loading-spinner">Loading...</div>
+
+       
+        <button id="toggle-history" class="neon-button">Show Last 5 Days Weather</button>
+        <div id="past-weather-info" class="weather-info"></div>
+
+       
+        <ul id="history-list" class="search-history"></ul>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
